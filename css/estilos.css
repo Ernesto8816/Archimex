@@ -1,0 +1,314 @@
+@import url("../foco-font/stylesheet.css");
+
+html {background-color: #33251a;}
+
+
+body { 
+
+  cursor: default;
+
+  font-family: 'Roboto', sans-serif; color: rgba(123,123,143,1); 
+
+}
+
+
+*:hover {-webkit-transition:all ease 300ms;}
+
+h1,h2,h3,h4 { font-family: 'Montserrat', sans-serif;
+              color: rgba(85,41,134,1); }
+
+
+
+
+h5,h6 { color: rgba(85,41,134,1); }
+
+.p-0 {padding:0}
+.p-10 {padding:10px;}
+.p-20 {padding:20px;}
+.p-30 {padding:30px;}
+.p-40 {padding:40px;}
+.p-50 {padding:50px;}
+
+.p-t-30 { padding-top: 30px; }
+.p-b-30 { padding-bottom: 30px; }
+
+
+.btn {font-size: 1.2em;
+      text-align: center;
+      border-radius:0; padding:12px 38px;
+      color:rgba(0,0,0,0.4); margin: 12px 4px;}
+
+
+.btn-default { background: rgba(74,158,144,1); border:0;
+                color: rgba(255,255,255,1);}
+
+.btn-default:hover { background: rgba(8,99,84,1); border:0;
+                      color: rgba(255,255,255,1);}
+
+
+.btn-naranja { background: rgba(223,92,42,1); border:0;
+                color: rgba(255,255,255,1);}
+
+.btn-naranja:hover { background: rgba(167,69,32,1); border:0;
+                      color: rgba(255,255,255,1);}
+
+
+.btn-transparente { background-color: rgba(0,0,0,0); border: 1px solid white;
+                    color:rgba(255,255,255,0.5); }
+
+.btn-transparente:hover { color:rgba(255,255,255,1); 
+                          background-color: rgba(0,0,0,0.2);} 
+
+.btn-dark { color:rgba(255,255,255,0.6); }                
+
+.btn-dark:hover { color:rgba(255,255,255,1); }                
+
+
+.glyphicon { margin: 0 10px; }
+
+
+
+/* Estilos de párrafo */
+
+.t-intro {  font-weight: 200;
+            font-size: 1.5em;
+            line-height: 2em; }
+
+
+p { font-size: 1.2em;
+    font-weight: 200;
+    line-height: 1.7em; }
+
+
+
+.text-1-5 { font-size: 1.5em; 
+            font-weight: 300;
+            }
+
+
+
+/* Colores texto */
+
+.c-blanco { color: rgba(255,255,255,1); }
+
+.c-gris-1 { color: rgba(153,153,173,1); }
+
+.c-gris-2 { color:rgba(123,123,143,1); }
+
+.c-gris-3 { color: rgba(38,38,57,1); }
+
+.c-morado-1 { color: rgba(85,41,134,1); }
+
+.c-morado-2 { color: rgba(43,21,67,1); }
+
+.c-amarillo-1 { color: rgba(255,194,37,1); }
+
+.c-amarillo-2 { color: rgba(178,131,8,1); }
+
+.c-azul-1 { color: rgba(41,169,224,1); }
+
+.c-azul-2 { color: rgba(9,80,111,1); }
+
+.c-cafe-1 { color: rgba(129,85,53,1); }
+
+
+
+
+/* Colores fondo */
+
+.bgm-transparente { background-color: none; background: none; }
+
+.bgm-blanco { background-color: rgba(255,255,255,1); }
+
+.bgm-gris-1 { background-color: rgba(153,153,173,1); }
+
+.bgm-gris-2 { background-color: rgba(38,38,57,1); }
+
+.bgm-morado-1 { background-color: rgba(85,41,134,1); }
+
+.bgm-morado-2 { background-color: rgba(43,21,67,1); }
+
+.bgm-amarillo-1 { background-color: rgba(255,194,37,1); }
+
+.bgm-amarillo-2 { background-color: rgba(178,131,8,1); }
+
+.bgm-azul-1 { background-color: rgba(41,169,224,1); }
+
+.bgm-azul-2 { background-color: rgba(9,80,111,1); }
+
+.bgm-naranja-1 { background: rgba(223,92,42,1); }
+
+
+.pie-de-pagina { background: rgba(59,58,57,1);
+                  padding: 20px 0; }
+
+
+
+/* Estilos header */
+
+
+logo img { padding:0 10px; }
+
+.menu-principal ul { margin-bottom: 0; margin-right: 20px; }
+
+.menu-principal  li a { display: block; line-height: 100px; 
+                        font-family: 'Montserrat', sans-serif;
+                        font-size: 1.3em; 
+                        color: rgba(191,184,178,1);
+                        text-decoration: none;
+                        padding: 0 10px;}
+
+
+.menu-principal  li a:hover { color: rgba(55,53,51,1); }
+
+.menu-principal li a.active { color: rgba(55,53,51,1); }
+
+#submenu-movil { background: rgba(0,0,0,0.8); }
+#submenu-movil  .modal-content { background: none !important; 
+                                  box-shadow: none; border:none;
+                                  border-top:none;}
+
+
+
+
+#submenu-movil p small {font-size: 0.7em;}
+
+.modal-dialog { margin-top:40px; }
+
+
+#submenu-movil a { color:white; }
+
+#submenu-movil a:hover { color:white; }
+
+
+
+
+.modal-header { padding: 0; }
+
+.modal-body { padding: 20px 40px; }
+
+
+
+.seccion-portada-2 { background: url(../img/bg/bg-01.jpg) no-repeat center;
+                      background-position: cover; }
+
+
+.seccion-empresa-2 { background-color: rgba(23,75,121,1); }                      
+
+
+
+.seccion-mision-vision { background: url(../img/bg/bg-02.jpg) no-repeat center;
+                      background-position: cover; }
+
+
+
+.seccion-compromiso { background: url(../img/bg/bg-03.jpg) no-repeat center;
+                      background-position: cover; }
+
+
+
+.seccion-productos-2 ul { margin: 0; padding: 0; overflow: hidden;}
+
+.seccion-productos-2 li {  float: left; list-style: none; width: 20%;}
+
+.seccion-productos-2 a {display: block;}
+
+.seccion-productos-2 img {opacity: 1;}
+
+.seccion-productos-2 img:hover { opacity: 0.8; }
+
+
+
+
+.seccion-productos-3 { padding-top: 80px; }
+
+
+.close { font-size: 3em; position: absolute;
+          top: -30px; right: 0; color: white; opacity: 1;
+          text-shadow: 0 0 3px rgba(0,0,0,0.8); padding: 10px;
+          background-color: black; display: block; }
+
+
+
+/*
+inspired from http://codepen.io/Rowno/pen/Afykb 
+*/
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  transition-property: opacity;
+}
+
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+
+/*
+WHAT IS NEW IN 3.3: "Added transforms to improve carousel performance in modern browsers."
+now override the 3.3 new styles for modern browsers & apply opacity
+*/
+@media all and (transform-3d), (-webkit-transform-3d) {
+    .carousel-fade .carousel-inner > .item.next,
+    .carousel-fade .carousel-inner > .item.active.right {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.prev,
+    .carousel-fade .carousel-inner > .item.active.left {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.next.left,
+    .carousel-fade .carousel-inner > .item.prev.right,
+    .carousel-fade .carousel-inner > .item.active {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+}
+
+
+
+.carousel-control.left {background-image: none;}
+
+.carousel-control.right {background-image: none;}
+
+/* just for demo purpose 
+    html,
+    body,
+    .carousel,
+    .carousel-inner,
+    .carousel-inner .item {
+      height: 100%;
+    }
+
+    .item:nth-child(1) {
+      background: blue;
+    }
+
+    .item:nth-child(2) {
+      background: red;
+    }
+
+    .item:nth-child(3) {
+      background: orange;
+    }
+*/
+
